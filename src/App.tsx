@@ -1,12 +1,13 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
-
+// typeScript
 import TSMyFixedSizeList from "./examples/ts/react-window/FixedSizeList.tsx";
 import TSMyFixedSizeGrid from "./examples/ts/react-window/FixedSizeGrid.tsx";
 import TSMyVirtualizedList from "./examples/ts/react-virtualized/VirtualizedList.tsx";
 import TSMyVirtualizedAutoSizer from "./examples/ts/react-virtualized/VirtualizedAutoSizer.tsx";
 import TSMyVirtualizedGrid from "./examples/ts/react-virtualized/VirtualizedGrid.tsx";
 import TSMyVirtualizedTable from "./examples/ts/react-virtualized/VirtualizedTable.tsx";
+// javaScript
 // @ts-ignore
 import JSMyFixedSizeList from "./examples/js/react-window/FixedSizeList.jsx";
 // @ts-ignore
