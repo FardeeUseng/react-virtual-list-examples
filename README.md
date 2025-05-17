@@ -1,2 +1,10 @@
-# react-virtual-list-examples
-Interactive code examples demonstrating the differences between react-window and react-virtualized for rendering large lists efficiently in React, with both JavaScript and TypeScript versions available.
+# 🚀 React + TypeScript Examples
+
+This project was bootstrapped using [Vite](https://vitejs.dev) with React and TypeScript.  
+Used to demonstrate real-world usage of React Hooks in TypeScript.
+
+## 🚧 Development
+
+```bash
+npm install
+npm run dev
