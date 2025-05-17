@@ -3,6 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import TSMyFixedSizeList from "./examples/ts/react-window/FixedSizeList.tsx";
 import TSMyFixedSizeGrid from "./examples/ts/react-window/FixedSizeGrid.tsx";
+import TSMyVirtualizedList from "./examples/ts/react-virtualized/VirtualizedList.tsx";
+import TSMyVirtualizedAutoSizer from "./examples/ts/react-virtualized/VirtualizedAutoSizer.tsx";
+import TSMyVirtualizedGrid from "./examples/ts/react-virtualized/VirtualizedGrid.tsx";
+import TSMyVirtualizedTable from "./examples/ts/react-virtualized/VirtualizedTable.tsx";
 // @ts-ignore
 import JSMyFixedSizeList from "./examples/js/react-window/FixedSizeList.jsx";
 // @ts-ignore
@@ -24,6 +28,10 @@ function App() {
         {/* typeScript */}
         <Route path="/examples/ts/react-window/fixed-size-list" element={<TSMyFixedSizeList />} />
         <Route path="/examples/ts/react-window/fixed-size-grid" element={<TSMyFixedSizeGrid />} />
+        <Route path="/examples/ts/react-virtualized/virtualized-list" element={<TSMyVirtualizedList />} />
+        <Route path="/examples/ts/react-virtualized/virtualized-auto-sizer" element={<TSMyVirtualizedAutoSizer />} />
+        <Route path="/examples/ts/react-virtualized/virtualized-grid" element={<TSMyVirtualizedGrid />} />
+        <Route path="/examples/ts/react-virtualized/virtualized-table" element={<TSMyVirtualizedTable />} />
         {/* javaScript */}
         <Route path="/examples/js/react-window/fixed-size-list" element={<JSMyFixedSizeList />} />
         <Route path="/examples/js/react-window/fixed-size-grid" element={<JSMyFixedSizeGrid />} />

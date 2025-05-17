@@ -1,12 +1,13 @@
+import React from "react";
 import { Grid } from "react-virtualized";
 import "react-virtualized/styles.css"; // สไตล์พื้นฐาน
 
-const cellStyle = (row, col) => ({
+const cellStyle = (row: number, col: number): React.CSSProperties => ({
   backgroundColor: (row + col) % 2 === 0 ? "#f0f0f0" : "#fff",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  border: "1px solid #ccc"
+  border: "1px solid #ccc",
 });
 
 export default function MyVirtualizedGrid() {
